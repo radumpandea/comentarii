@@ -19,7 +19,7 @@ window.PM_PACHETE = [
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-06', ko: '18:30', home: 'Arsenal', away: 'Chelsea', venue: 'Emirates Stadium', file: 'pachete/pl-e3-arsenal-chelsea.pdf', ready: false },
 
   // ---- Ligue 1 — Etapa 4 (3-6 septembrie 2026) ----
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-03', ko: '21:45', home: 'Toulouse', away: 'Lille', venue: 'Stadium de Toulouse', file: 'pachete/l1-e4-toulouse-lille.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 3', date: '2026-09-03', ko: '21:45', home: 'Toulouse', away: 'Lille', venue: 'Stadium de Toulouse', file: 'pachete/l1-e4-toulouse-lille.pdf', ready: true },
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-04', ko: '20:00', home: 'Lyon', away: 'Auxerre', venue: 'Groupama Stadium', file: 'pachete/l1-e4-lyon-auxerre.pdf', ready: false },
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-04', ko: '22:05', home: 'Paris Saint-Germain', away: 'Monaco', venue: 'Parc des Princes', file: 'pachete/l1-e4-psg-monaco.pdf', ready: false },
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-05', ko: '18:15', home: 'Lens', away: 'Lorient', venue: 'Stade Bollaert-Delelis', file: 'pachete/l1-e4-lens-lorient.pdf', ready: false },
@@ -31,7 +31,7 @@ window.PM_PACHETE = [
 
   // ---- LaLiga — Etapa 4 (3-5 septembrie 2026) — doar meciurile cu oră confirmată; ----
   // restul rundei nu avea date fără contradicții în sursele disponibile la compilare.
-  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-03', ko: '21:00', home: 'Real Sociedad', away: 'Celta Vigo', venue: 'Reale Arena', file: 'pachete/laliga-e4-real-sociedad-celta.pdf', ready: false },
+  { comp: 'LaLiga', et: 'Etapa 6', date: '2026-09-03', ko: '22:00', home: 'Real Sociedad', away: 'Celta Vigo', venue: 'Reale Arena', file: 'pachete/laliga-e4-real-sociedad-celta.pdf', ready: true },
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-04', ko: '21:00', home: 'Real Betis', away: 'Real Madrid', venue: 'Estadio Benito Villamarín', file: 'pachete/laliga-e4-betis-real-madrid.pdf', ready: false },
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '16:15', home: 'Athletic Bilbao', away: 'Atlético Madrid', venue: 'San Mamés', file: 'pachete/laliga-e4-athletic-atletico.pdf', ready: false },
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '18:30', home: 'Rayo Vallecano', away: 'Racing Santander', venue: 'Estadio de Vallecas', file: 'pachete/laliga-e4-rayo-racing.pdf', ready: false },
