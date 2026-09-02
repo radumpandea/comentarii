@@ -1,0 +1,86 @@
+name: Commentator Packs
+
+on:
+  schedule:
+    - cron: "0 6 * * *"    # 06:00 UTC daily (08:00 Europe/Bucharest) — after fixture refresh
+  workflow_dispatch: {}    # lets you run it on demand from the Actions tab, e.g. for a first test
+
+jobs:
+  build-pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Install PDF build dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends fonts-dejavu-core
+          pip install --break-system-packages reportlab matplotlib
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            You are building one commentator PDF pack for a small Romanian football
+            site (radumpandea.github.io/comentarii). You run once a day, unattended,
+            with no memory of any previous run and no one reviewing the output before
+            it goes live — everything you need is in this repo and this prompt, and
+            the accuracy rules below are not optional.
+
+            ## Repo layout
+            - `pachete.js` (repo root) and `site/pachete.js` — byte-identical, both
+              define `window.PM_PACHETE`, an array of match entries:
+              { comp, et, date, ko, home, away, venue, file, ready }
+              `file` is the path (relative to `site/`) where that match's PDF pack
+              belongs, e.g. `pachete/pl-e5-arsenal-chelsea.pdf`.
+            - `.claude/skills/pachet-comentator-fotbal/SKILL.md` — the full spec for
+              how to research and build a pack. Follow it exactly, at its default
+              maximum scope (full squads, full detail per player, all sections) —
+              do not reduce scope or ask; there's no one here to ask.
+
+            ## Your job today
+            1. Read `pachete.js`. Among entries with `ready: false`, find the one
+               with the earliest `date` that is today or in the next 2 days
+               (Europe/Bucharest time). If there is none, stop here — do nothing
+               else, make no commit. This is the expected outcome most days.
+            2. Build that match's commentator pack by following
+               `.claude/skills/pachet-comentator-fotbal/SKILL.md` from Step 0
+               through Step 4, in full. Save the PDF at `site/` + that entry's
+               `file` path (create `site/pachete/` if needed).
+            3. Update that one entry in `pachete.js`: set `ready: true`, and correct
+               `et` (matchday label), `ko` (kickoff time), or `venue` if your
+               research finds the manifest's value was wrong — this has happened
+               before, so don't skip the check. Leave every other entry untouched.
+            4. Copy the same updated array into `site/pachete.js` (keep the two
+               files identical).
+
+            ## Accuracy — read this twice, no one will catch a mistake before it's live
+            - Never invent a fact, a statistic, or a height/career detail. Mark it
+              "n/d" when it's genuinely not publicly available, exactly as the skill
+              says.
+            - Never write a "first time", "record", or "return to" claim unless a
+              source states that exact thing. When unsure, state the plain fact
+              without the narrative flourish.
+            - Any news item must be dated within 2-3 days of today — check the
+              article's own date, don't use anything older or undated.
+            - If two sources disagree on a squad, a lineup, or a stat, prefer the
+              official source (club site, league site, UEFA squad list for European
+              games) and note the discrepancy rather than silently picking one.
+            - This research is intentionally large (the skill notes 40-90+ lookups
+              just for squad details) — that volume is expected, not a signal to
+              cut corners.
+
+            ## Finishing up
+            - Only commit and push if you actually produced a PDF and updated the
+              manifest for that one match. Commit message: which match, competition,
+              matchday.
+            - Push directly to `main`.
+            - Never touch any other match's manifest entry or PDF file.
+          claude_args: |
+            --model claude-sonnet-5
+            --allowedTools "Read,Write,Edit,Bash,Glob,Grep,WebSearch,WebFetch"
