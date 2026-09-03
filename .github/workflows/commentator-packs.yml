@@ -33,11 +33,12 @@ jobs:
             the accuracy rules below are not optional.
 
             ## Repo layout
-            - `pachete.js` (repo root) and `site/pachete.js` — byte-identical, both
+            - `pachete.js` (repo root) and `docs/pachete.js` — byte-identical, both
               define `window.PM_PACHETE`, an array of match entries:
               { comp, et, date, ko, home, away, venue, file, ready }
-              `file` is the path (relative to `site/`) where that match's PDF pack
-              belongs, e.g. `pachete/pl-e5-arsenal-chelsea.pdf`.
+              `file` is the path (relative to `docs/`) where that match's PDF pack
+              belongs, e.g. `pachete/pl-e5-arsenal-chelsea.pdf`. GitHub Pages serves
+              this site from the `docs/` folder — that's the one that's actually live.
             - `.claude/skills/pachet-comentator-fotbal/SKILL.md` — the full spec for
               how to research and build a pack. Follow it exactly, at its default
               maximum scope (full squads, full detail per player, all sections) —
@@ -50,13 +51,13 @@ jobs:
                else, make no commit. This is the expected outcome most days.
             2. Build that match's commentator pack by following
                `.claude/skills/pachet-comentator-fotbal/SKILL.md` from Step 0
-               through Step 4, in full. Save the PDF at `site/` + that entry's
-               `file` path (create `site/pachete/` if needed).
+               through Step 4, in full. Save the PDF at `docs/` + that entry's
+               `file` path (create `docs/pachete/` if needed).
             3. Update that one entry in `pachete.js`: set `ready: true`, and correct
                `et` (matchday label), `ko` (kickoff time), or `venue` if your
                research finds the manifest's value was wrong — this has happened
                before, so don't skip the check. Leave every other entry untouched.
-            4. Copy the same updated array into `site/pachete.js` (keep the two
+            4. Copy the same updated array into `docs/pachete.js` (keep the two
                files identical).
 
             ## Accuracy — read this twice, no one will catch a mistake before it's live
