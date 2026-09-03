@@ -36,7 +36,7 @@ const COMPS = [
 const DAYS_AHEAD = 21; // scan window when a competition's round has finished
 
 const ROOT_FILE = new URL('../pachete.js', import.meta.url);
-const SITE_FILE = new URL('../site/pachete.js', import.meta.url);
+const SITE_FILE = new URL('../docs/pachete.js', import.meta.url);
 
 function slugify(s) {
   return s
