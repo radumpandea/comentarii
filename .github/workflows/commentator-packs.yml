@@ -33,6 +33,18 @@ jobs:
             it goes live — everything you need is in this repo and this prompt, and
             the accuracy rules below are not optional.
 
+            ## Critical: do the work yourself, now — there is no "later"
+            This process is a single one-shot run. The moment your final response is
+            produced, this job exits immediately — nothing keeps running after that.
+            Do NOT use the Task tool or any background/async agent to do the research
+            and "report back once it completes" — there is no "later" for it to report
+            into; delegated work like that is abandoned mid-way and nothing gets
+            built, committed, or pushed, even though your own turn will look like it
+            succeeded. Do every step yourself, directly, synchronously, in this same
+            turn: the research, the PDF, the manifest update, and the git commit and
+            push, all before you give your final answer. Take as many tool calls and
+            as long as you need — that's expected and fine — just do it inline.
+
             ## Repo layout
             - `pachete.js` (repo root) and `docs/pachete.js` — byte-identical, both
               define `window.PM_PACHETE`, an array of match entries:
