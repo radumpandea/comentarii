@@ -25,6 +25,7 @@ jobs:
       - uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          show_full_output: true
           prompt: |
             You are building one commentator PDF pack for a small Romanian football
             site (radumpandea.github.io/comentarii). You run once a day, unattended,
