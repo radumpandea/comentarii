@@ -4,7 +4,7 @@
 // Actualizat automat 2026-09-03 de refresh-fixtures.yml.
 window.PM_PACHETE = [
   // ---- Premier League — Etapa 3 ----
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-04', ko: '22:00', home: 'Ipswich Town', away: 'Liverpool', venue: 'Portman Road', file: 'pachete/pl-e3-ipswich-liverpool.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-04', ko: '22:00', home: 'Ipswich Town', away: 'Liverpool', venue: 'Portman Road', file: 'pachete/pl-e3-ipswich-liverpool.pdf', ready: true },
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '14:30', home: 'Newcastle United', away: 'AFC Bournemouth', venue: 'St James\' Park', file: 'pachete/pl-e3-newcastle-bournemouth.pdf', ready: false },
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Brentford', away: 'Sunderland', venue: 'Gtech Community Stadium', file: 'pachete/pl-e3-brentford-sunderland.pdf', ready: false },
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Brighton & Hove Albion', away: 'Leeds United', venue: 'American Express Stadium', file: 'pachete/pl-e3-brighton-leeds.pdf', ready: false },
