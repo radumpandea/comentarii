@@ -1,12 +1,9 @@
 // Manifestul arhivei publice. Fiecare pachet exportat ca PDF în site/pachete/
 // primește o intrare aici. `ready: false` = datele sunt culese, PDF-ul nu e încă exportat.
 //
-// Actualizat 2026-09-01. Etapele din campionatele interne (Superliga) nu aveau
-// încă oră/dată exactă per meci confirmată de LPF la data compilării — se
-// confirmă de obicei cu ~1 săptămână înainte; job-ul zilnic le va actualiza
-// automat quando LPF publică programul TV.
+// Actualizat automat 2026-09-03 de refresh-fixtures.yml.
 window.PM_PACHETE = [
-  // ---- Premier League — Etapa 3 (4-6 septembrie 2026) ----
+  // ---- Premier League — Etapa 3 ----
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-04', ko: '22:00', home: 'Ipswich Town', away: 'Liverpool', venue: 'Portman Road', file: 'pachete/pl-e3-ipswich-liverpool.pdf', ready: false },
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '14:30', home: 'Newcastle United', away: 'AFC Bournemouth', venue: 'St James\' Park', file: 'pachete/pl-e3-newcastle-bournemouth.pdf', ready: false },
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Brentford', away: 'Sunderland', venue: 'Gtech Community Stadium', file: 'pachete/pl-e3-brentford-sunderland.pdf', ready: false },
@@ -18,7 +15,7 @@ window.PM_PACHETE = [
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-06', ko: '16:00', home: 'Everton', away: 'Manchester United', venue: 'Hill Dickinson Stadium', file: 'pachete/pl-e3-everton-man-united.pdf', ready: false },
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-06', ko: '18:30', home: 'Arsenal', away: 'Chelsea', venue: 'Emirates Stadium', file: 'pachete/pl-e3-arsenal-chelsea.pdf', ready: false },
 
-  // ---- Ligue 1 — Etapa 4 (3-6 septembrie 2026) ----
+  // ---- Ligue 1 — Etapa 3 ----
   { comp: 'Ligue 1', et: 'Etapa 3', date: '2026-09-03', ko: '21:45', home: 'Toulouse', away: 'Lille', venue: 'Stadium de Toulouse', file: 'pachete/l1-e4-toulouse-lille.pdf', ready: true },
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-04', ko: '20:00', home: 'Lyon', away: 'Auxerre', venue: 'Groupama Stadium', file: 'pachete/l1-e4-lyon-auxerre.pdf', ready: false },
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-04', ko: '22:05', home: 'Paris Saint-Germain', away: 'Monaco', venue: 'Parc des Princes', file: 'pachete/l1-e4-psg-monaco.pdf', ready: false },
@@ -29,15 +26,14 @@ window.PM_PACHETE = [
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-06', ko: '18:15', home: 'Angers', away: 'Rennes', venue: 'Stade Raymond-Kopa', file: 'pachete/l1-e4-angers-rennes.pdf', ready: false },
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-06', ko: '21:45', home: 'Marseille', away: 'Paris FC', venue: 'Stade Vélodrome', file: 'pachete/l1-e4-marseille-paris-fc.pdf', ready: false },
 
-  // ---- LaLiga — Etapa 4 (3-5 septembrie 2026) — doar meciurile cu oră confirmată; ----
-  // restul rundei nu avea date fără contradicții în sursele disponibile la compilare.
+  // ---- LaLiga — Etapa 6 ----
   { comp: 'LaLiga', et: 'Etapa 6', date: '2026-09-03', ko: '22:00', home: 'Real Sociedad', away: 'Celta Vigo', venue: 'Reale Arena', file: 'pachete/laliga-e4-real-sociedad-celta.pdf', ready: true },
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-04', ko: '21:00', home: 'Real Betis', away: 'Real Madrid', venue: 'Estadio Benito Villamarín', file: 'pachete/laliga-e4-betis-real-madrid.pdf', ready: false },
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '16:15', home: 'Athletic Bilbao', away: 'Atlético Madrid', venue: 'San Mamés', file: 'pachete/laliga-e4-athletic-atletico.pdf', ready: false },
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '18:30', home: 'Rayo Vallecano', away: 'Racing Santander', venue: 'Estadio de Vallecas', file: 'pachete/laliga-e4-rayo-racing.pdf', ready: false },
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '21:00', home: 'Villarreal', away: 'Deportivo A Coruña', venue: 'Estadio de la Cerámica', file: 'pachete/laliga-e4-villarreal-deportivo.pdf', ready: false },
 
-  // ---- Serie A — Etapa 3 (4-6 septembrie 2026) ----
+  // ---- Serie A — Etapa 3 ----
   { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-04', ko: '20:45', home: 'Genoa', away: 'Como', venue: 'Stadio Luigi Ferraris', file: 'pachete/seriea-e3-genoa-como.pdf', ready: false },
   { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-05', ko: '15:00', home: 'Fiorentina', away: 'Torino', venue: 'Stadio Artemio Franchi', file: 'pachete/seriea-e3-fiorentina-torino.pdf', ready: false },
   { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-05', ko: '18:00', home: 'Inter Milano', away: 'Napoli', venue: 'Stadio San Siro', file: 'pachete/seriea-e3-inter-napoli.pdf', ready: false },
@@ -47,7 +43,7 @@ window.PM_PACHETE = [
   { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-06', ko: '18:00', home: 'Bologna', away: 'Sassuolo', venue: 'Stadio Renato Dall\'Ara', file: 'pachete/seriea-e3-bologna-sassuolo.pdf', ready: false },
   { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-06', ko: '20:45', home: 'Juventus', away: 'AC Milan', venue: 'Allianz Stadium', file: 'pachete/seriea-e3-juventus-milan.pdf', ready: false },
 
-  // ---- Bundesliga — Etapa 3 (4-6 septembrie 2026) ----
+  // ---- Bundesliga — Etapa 3 ----
   { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-04', ko: '20:30', home: 'VfB Stuttgart', away: 'FC Köln', venue: 'MHPArena', file: 'pachete/bundesliga-e3-stuttgart-koln.pdf', ready: false },
   { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '15:30', home: 'TSG Hoffenheim', away: 'Borussia Dortmund', venue: 'PreZero Arena', file: 'pachete/bundesliga-e3-hoffenheim-dortmund.pdf', ready: false },
   { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '15:30', home: 'Bayer Leverkusen', away: 'Union Berlin', venue: 'BayArena', file: 'pachete/bundesliga-e3-leverkusen-union-berlin.pdf', ready: false },
@@ -58,10 +54,7 @@ window.PM_PACHETE = [
   { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-06', ko: '15:30', home: 'Hamburger SV', away: 'FSV Mainz 05', venue: 'Volksparkstadion', file: 'pachete/bundesliga-e3-hamburg-mainz.pdf', ready: false },
   { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-06', ko: '17:30', home: 'Eintracht Frankfurt', away: 'FC Augsburg', venue: 'Deutsche Bank Park', file: 'pachete/bundesliga-e3-frankfurt-augsburg.pdf', ready: false },
 
-  // ---- Superliga România — Etapa 8 (5-6 septembrie 2026) ----
-  // Oră și zi exactă per meci nu erau încă publicate de LPF la data compilării
-  // (se confirmă de obicei cu ~1 săptămână înainte) — marcate 'n/d', de completat
-  // de job-ul zilnic imediat ce apar.
+  // ---- Superliga — Etapa 8 ----
   { comp: 'Superliga', et: 'Etapa 8', date: '2026-09-06', ko: 'n/d', home: 'Dinamo București', away: 'FCSB', venue: 'Stadionul Arcul de Triumf', file: 'pachete/sl-e8-dinamo-fcsb.pdf', ready: false },
   { comp: 'Superliga', et: 'Etapa 8', date: '2026-09-06', ko: 'n/d', home: 'Petrolul Ploiești', away: 'Corvinul Hunedoara', venue: 'Stadionul Ilie Oană', file: 'pachete/sl-e8-petrolul-corvinul.pdf', ready: false },
   { comp: 'Superliga', et: 'Etapa 8', date: '2026-09-06', ko: 'n/d', home: 'UTA Arad', away: 'FK Csíkszereda', venue: 'n/d', file: 'pachete/sl-e8-uta-csikszereda.pdf', ready: false },
