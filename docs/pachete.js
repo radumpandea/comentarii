@@ -1,7 +1,7 @@
 // Manifestul arhivei publice. Fiecare pachet exportat ca PDF în site/pachete/
 // primește o intrare aici. `ready: false` = datele sunt culese, PDF-ul nu e încă exportat.
 //
-// Actualizat automat 2026-09-04 de refresh-fixtures.yml.
+// Actualizat automat 2026-09-05 de refresh-fixtures.yml.
 window.PM_PACHETE = [
   // ---- Premier League — Etapa 3 ----
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-04', ko: '22:00', home: 'Ipswich Town', away: 'Liverpool', venue: 'Portman Road', file: 'pachete/pl-e3-ipswich-liverpool.pdf', ready: true },
