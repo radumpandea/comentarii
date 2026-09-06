@@ -1,7 +1,7 @@
 // Manifestul arhivei publice. Fiecare pachet exportat ca PDF în site/pachete/
 // primește o intrare aici. `ready: false` = datele sunt culese, PDF-ul nu e încă exportat.
 //
-// Actualizat automat 2026-09-05 de refresh-fixtures.yml.
+// Actualizat automat 2026-09-06 de refresh-fixtures.yml.
 window.PM_PACHETE = [
   // ---- Premier League — Etapa 3 ----
   { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-04', ko: '22:00', home: 'Ipswich Town', away: 'Liverpool', venue: 'Portman Road', file: 'pachete/pl-e3-ipswich-liverpool.pdf', ready: true },
@@ -26,12 +26,13 @@ window.PM_PACHETE = [
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-06', ko: '18:15', home: 'Angers', away: 'Rennes', venue: 'Stade Raymond-Kopa', file: 'pachete/l1-e4-angers-rennes.pdf', ready: false },
   { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-06', ko: '21:45', home: 'Marseille', away: 'Paris FC', venue: 'Stade Vélodrome', file: 'pachete/l1-e4-marseille-paris-fc.pdf', ready: false },
 
-  // ---- LaLiga — Etapa 6 ----
-  { comp: 'LaLiga', et: 'Etapa 6', date: '2026-09-03', ko: '22:00', home: 'Real Sociedad', away: 'Celta Vigo', venue: 'Reale Arena', file: 'pachete/laliga-e4-real-sociedad-celta.pdf', ready: true },
-  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-04', ko: '21:00', home: 'Real Betis', away: 'Real Madrid', venue: 'Estadio Benito Villamarín', file: 'pachete/laliga-e4-betis-real-madrid.pdf', ready: false },
-  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '16:15', home: 'Athletic Bilbao', away: 'Atlético Madrid', venue: 'San Mamés', file: 'pachete/laliga-e4-athletic-atletico.pdf', ready: false },
-  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '18:30', home: 'Rayo Vallecano', away: 'Racing Santander', venue: 'Estadio de Vallecas', file: 'pachete/laliga-e4-rayo-racing.pdf', ready: false },
-  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-05', ko: '21:00', home: 'Villarreal', away: 'Deportivo A Coruña', venue: 'Estadio de la Cerámica', file: 'pachete/laliga-e4-villarreal-deportivo.pdf', ready: false },
+  // ---- LaLiga — Etapa 4 ----
+  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-06', ko: '17:15', home: 'Valencia', away: 'Barcelona', venue: 'n/d', file: 'pachete/laliga-e4-valencia-barcelona.pdf', ready: false },
+  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-06', ko: '19:30', home: 'Deportivo Alavés', away: 'Osasuna', venue: 'n/d', file: 'pachete/laliga-e4-deportivo-alaves-osasuna.pdf', ready: false },
+  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-06', ko: '19:30', home: 'Málaga', away: 'Levante', venue: 'n/d', file: 'pachete/laliga-e4-malaga-levante.pdf', ready: false },
+  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-06', ko: '22:00', home: 'Espanyol', away: 'Sevilla', venue: 'n/d', file: 'pachete/laliga-e4-espanyol-sevilla.pdf', ready: false },
+  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-07', ko: '20:00', home: 'Getafe', away: 'Celta Vigo', venue: 'n/d', file: 'pachete/laliga-e4-getafe-celta-vigo.pdf', ready: false },
+  { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-07', ko: '22:30', home: 'Elche', away: 'Real Sociedad', venue: 'n/d', file: 'pachete/laliga-e4-elche-real-sociedad.pdf', ready: false },
 
   // ---- Serie A — Etapa 3 ----
   { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-04', ko: '20:45', home: 'Genoa', away: 'Como', venue: 'Stadio Luigi Ferraris', file: 'pachete/seriea-e3-genoa-como.pdf', ready: false },
