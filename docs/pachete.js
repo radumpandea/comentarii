@@ -1,30 +1,30 @@
 // Manifestul arhivei publice. Fiecare pachet exportat ca PDF în site/pachete/
 // primește o intrare aici. `ready: false` = datele sunt culese, PDF-ul nu e încă exportat.
 //
-// Actualizat automat 2026-09-06 de refresh-fixtures.yml.
+// Actualizat automat 2026-09-07 de refresh-fixtures.yml.
 window.PM_PACHETE = [
-  // ---- Premier League — Etapa 3 ----
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-04', ko: '22:00', home: 'Ipswich Town', away: 'Liverpool', venue: 'Portman Road', file: 'pachete/pl-e3-ipswich-liverpool.pdf', ready: true },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '14:30', home: 'Newcastle United', away: 'AFC Bournemouth', venue: 'St James\' Park', file: 'pachete/pl-e3-newcastle-bournemouth.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Brentford', away: 'Sunderland', venue: 'Gtech Community Stadium', file: 'pachete/pl-e3-brentford-sunderland.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Brighton & Hove Albion', away: 'Leeds United', venue: 'American Express Stadium', file: 'pachete/pl-e3-brighton-leeds.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Fulham', away: 'Crystal Palace', venue: 'Craven Cottage', file: 'pachete/pl-e3-fulham-crystal-palace.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Manchester City', away: 'Coventry City', venue: 'Etihad Stadium', file: 'pachete/pl-e3-man-city-coventry.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '19:30', home: 'Hull City', away: 'Aston Villa', venue: 'MKM Stadium', file: 'pachete/pl-e3-hull-aston-villa.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-05', ko: '17:00', home: 'Nottingham Forest', away: 'Tottenham Hotspur', venue: 'City Ground', file: 'pachete/pl-e3-nottingham-forest-tottenham.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-06', ko: '16:00', home: 'Everton', away: 'Manchester United', venue: 'Hill Dickinson Stadium', file: 'pachete/pl-e3-everton-man-united.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 3', date: '2026-09-06', ko: '18:30', home: 'Arsenal', away: 'Chelsea', venue: 'Emirates Stadium', file: 'pachete/pl-e3-arsenal-chelsea.pdf', ready: false },
+  // ---- Premier League — Etapa 4 ----
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '17:00', home: 'Bournemouth', away: 'Brentford', venue: 'n/d', file: 'pachete/pl-e4-bournemouth-brentford.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '17:00', home: 'Aston Villa', away: 'Nottm Forest', venue: 'n/d', file: 'pachete/pl-e4-aston-villa-nottm-forest.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '17:00', home: 'Chelsea', away: 'Hull', venue: 'n/d', file: 'pachete/pl-e4-chelsea-hull.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '17:00', home: 'Crystal Palace', away: 'Ipswich', venue: 'n/d', file: 'pachete/pl-e4-crystal-palace-ipswich.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '17:00', home: 'Liverpool', away: 'Fulham', venue: 'n/d', file: 'pachete/pl-e4-liverpool-fulham.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '19:30', home: 'Tottenham', away: 'Everton', venue: 'n/d', file: 'pachete/pl-e4-tottenham-everton.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '22:00', home: 'Sunderland', away: 'Arsenal', venue: 'n/d', file: 'pachete/pl-e4-sunderland-arsenal.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-13', ko: '16:00', home: 'Coventry', away: 'Brighton', venue: 'n/d', file: 'pachete/pl-e4-coventry-brighton.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-13', ko: '18:30', home: 'Man United', away: 'Man City', venue: 'n/d', file: 'pachete/pl-e4-man-united-man-city.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-14', ko: '22:00', home: 'Leeds', away: 'Newcastle', venue: 'n/d', file: 'pachete/pl-e4-leeds-newcastle.pdf', ready: false },
 
-  // ---- Ligue 1 — Etapa 3 ----
-  { comp: 'Ligue 1', et: 'Etapa 3', date: '2026-09-03', ko: '21:45', home: 'Toulouse', away: 'Lille', venue: 'Stadium de Toulouse', file: 'pachete/l1-e4-toulouse-lille.pdf', ready: true },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-04', ko: '20:00', home: 'Lyon', away: 'Auxerre', venue: 'Groupama Stadium', file: 'pachete/l1-e4-lyon-auxerre.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-04', ko: '22:05', home: 'Paris Saint-Germain', away: 'Monaco', venue: 'Parc des Princes', file: 'pachete/l1-e4-psg-monaco.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-05', ko: '18:15', home: 'Lens', away: 'Lorient', venue: 'Stade Bollaert-Delelis', file: 'pachete/l1-e4-lens-lorient.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-05', ko: '21:45', home: 'Nice', away: 'Le Mans', venue: 'Allianz Riviera', file: 'pachete/l1-e4-nice-le-mans.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-05', ko: '21:45', home: 'Le Havre', away: 'Brest', venue: 'Stade Océane', file: 'pachete/l1-e4-le-havre-brest.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-06', ko: '16:00', home: 'Troyes', away: 'Strasbourg', venue: 'Stade de l\'Aube', file: 'pachete/l1-e4-troyes-strasbourg.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-06', ko: '18:15', home: 'Angers', away: 'Rennes', venue: 'Stade Raymond-Kopa', file: 'pachete/l1-e4-angers-rennes.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-06', ko: '21:45', home: 'Marseille', away: 'Paris FC', venue: 'Stade Vélodrome', file: 'pachete/l1-e4-marseille-paris-fc.pdf', ready: false },
+  // ---- Ligue 1 — Etapa 4 ----
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-11', ko: '21:45', home: 'Rennes', away: 'Marseille', venue: 'n/d', file: 'pachete/l1-e4-rennes-marseille.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-12', ko: '18:15', home: 'Strasbourg', away: 'Monaco', venue: 'n/d', file: 'pachete/l1-e4-strasbourg-monaco.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-12', ko: '21:45', home: 'Auxerre', away: 'Nice', venue: 'n/d', file: 'pachete/l1-e4-auxerre-nice.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-12', ko: '21:45', home: 'Le Havre', away: 'Angers', venue: 'Stade Océane', file: 'pachete/l1-e4-le-havre-angers.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-12', ko: '21:45', home: 'Lorient', away: 'Toulouse', venue: 'n/d', file: 'pachete/l1-e4-lorient-toulouse.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-12', ko: '21:45', home: 'Paris FC', away: 'Lyon', venue: 'n/d', file: 'pachete/l1-e4-paris-fc-lyon.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-13', ko: '16:00', home: 'Lille', away: 'Troyes', venue: 'n/d', file: 'pachete/l1-e4-lille-troyes.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-13', ko: '18:15', home: 'Le Mans', away: 'Lens', venue: 'n/d', file: 'pachete/l1-e4-le-mans-lens.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 4', date: '2026-09-13', ko: '21:45', home: 'Brest', away: 'PSG', venue: 'n/d', file: 'pachete/l1-e4-brest-psg.pdf', ready: false },
 
   // ---- LaLiga — Etapa 4 ----
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-06', ko: '17:15', home: 'Valencia', away: 'Barcelona', venue: 'n/d', file: 'pachete/laliga-e4-valencia-barcelona.pdf', ready: false },
@@ -35,25 +35,19 @@ window.PM_PACHETE = [
   { comp: 'LaLiga', et: 'Etapa 4', date: '2026-09-07', ko: '22:30', home: 'Elche', away: 'Real Sociedad', venue: 'n/d', file: 'pachete/laliga-e4-elche-real-sociedad.pdf', ready: false },
 
   // ---- Serie A — Etapa 3 ----
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-04', ko: '20:45', home: 'Genoa', away: 'Como', venue: 'Stadio Luigi Ferraris', file: 'pachete/seriea-e3-genoa-como.pdf', ready: false },
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-05', ko: '15:00', home: 'Fiorentina', away: 'Torino', venue: 'Stadio Artemio Franchi', file: 'pachete/seriea-e3-fiorentina-torino.pdf', ready: false },
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-05', ko: '18:00', home: 'Inter Milano', away: 'Napoli', venue: 'Stadio San Siro', file: 'pachete/seriea-e3-inter-napoli.pdf', ready: false },
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-05', ko: '20:45', home: 'AS Roma', away: 'Atalanta', venue: 'Stadio Olimpico', file: 'pachete/seriea-e3-roma-atalanta.pdf', ready: false },
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-06', ko: '15:00', home: 'Frosinone', away: 'Venezia', venue: 'Stadio Benito Stirpe', file: 'pachete/seriea-e3-frosinone-venezia.pdf', ready: false },
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-06', ko: '15:00', home: 'Parma', away: 'Monza', venue: 'Stadio Ennio Tardini', file: 'pachete/seriea-e3-parma-monza.pdf', ready: false },
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-06', ko: '18:00', home: 'Bologna', away: 'Sassuolo', venue: 'Stadio Renato Dall\'Ara', file: 'pachete/seriea-e3-bologna-sassuolo.pdf', ready: false },
-  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-06', ko: '20:45', home: 'Juventus', away: 'AC Milan', venue: 'Allianz Stadium', file: 'pachete/seriea-e3-juventus-milan.pdf', ready: false },
+  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-07', ko: '19:30', home: 'Cagliari', away: 'Lecce', venue: 'n/d', file: 'pachete/seriea-e3-cagliari-lecce.pdf', ready: false },
+  { comp: 'Serie A', et: 'Etapa 3', date: '2026-09-07', ko: '21:45', home: 'Udinese', away: 'Lazio', venue: 'n/d', file: 'pachete/seriea-e3-udinese-lazio.pdf', ready: false },
 
   // ---- Bundesliga — Etapa 3 ----
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-04', ko: '20:30', home: 'VfB Stuttgart', away: 'FC Köln', venue: 'MHPArena', file: 'pachete/bundesliga-e3-stuttgart-koln.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '15:30', home: 'TSG Hoffenheim', away: 'Borussia Dortmund', venue: 'PreZero Arena', file: 'pachete/bundesliga-e3-hoffenheim-dortmund.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '15:30', home: 'Bayer Leverkusen', away: 'Union Berlin', venue: 'BayArena', file: 'pachete/bundesliga-e3-leverkusen-union-berlin.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '15:30', home: 'Borussia Mönchengladbach', away: 'SV Elversberg', venue: 'Borussia-Park', file: 'pachete/bundesliga-e3-gladbach-elversberg.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '15:30', home: 'SC Paderborn', away: 'SC Freiburg', venue: 'Home Deluxe Arena', file: 'pachete/bundesliga-e3-paderborn-freiburg.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '15:30', home: 'Werder Bremen', away: 'RB Leipzig', venue: 'Weserstadion', file: 'pachete/bundesliga-e3-werder-leipzig.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-05', ko: '18:30', home: 'Schalke 04', away: 'Bayern München', venue: 'Veltins-Arena', file: 'pachete/bundesliga-e3-schalke-bayern.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-06', ko: '15:30', home: 'Hamburger SV', away: 'FSV Mainz 05', venue: 'Volksparkstadion', file: 'pachete/bundesliga-e3-hamburg-mainz.pdf', ready: false },
-  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-06', ko: '17:30', home: 'Eintracht Frankfurt', away: 'FC Augsburg', venue: 'Deutsche Bank Park', file: 'pachete/bundesliga-e3-frankfurt-augsburg.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-11', ko: '21:30', home: 'Union Berlin', away: 'Schalke 04', venue: 'n/d', file: 'pachete/bundesliga-e3-union-berlin-schalke-04.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-12', ko: '16:30', home: 'Augsburg', away: 'Leverkusen', venue: 'n/d', file: 'pachete/bundesliga-e3-augsburg-leverkusen.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-12', ko: '16:30', home: 'Dortmund', away: 'Paderborn', venue: 'n/d', file: 'pachete/bundesliga-e3-dortmund-paderborn.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-12', ko: '16:30', home: 'Freiburg', away: 'M\'gladbach', venue: 'n/d', file: 'pachete/bundesliga-e3-freiburg-m-gladbach.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-12', ko: '16:30', home: 'Hoffenheim', away: 'VfB Stuttgart', venue: 'n/d', file: 'pachete/bundesliga-e3-hoffenheim-vfb-stuttgart.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-12', ko: '16:30', home: 'Mainz', away: 'Frankfurt', venue: 'n/d', file: 'pachete/bundesliga-e3-mainz-frankfurt.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-12', ko: '19:30', home: 'Köln', away: 'Werder Bremen', venue: 'n/d', file: 'pachete/bundesliga-e3-koln-werder-bremen.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-13', ko: '16:30', home: 'RB Leipzig', away: 'Hamburger SV', venue: 'n/d', file: 'pachete/bundesliga-e3-rb-leipzig-hamburger-sv.pdf', ready: false },
+  { comp: 'Bundesliga', et: 'Etapa 3', date: '2026-09-13', ko: '18:30', home: 'Elversberg', away: 'Bayern München', venue: 'n/d', file: 'pachete/bundesliga-e3-elversberg-bayern-munchen.pdf', ready: false },
 
   // ---- Superliga — Etapa 8 ----
   { comp: 'Superliga', et: 'Etapa 8', date: '2026-09-06', ko: 'n/d', home: 'Dinamo București', away: 'FCSB', venue: 'Stadionul Arcul de Triumf', file: 'pachete/sl-e8-dinamo-fcsb.pdf', ready: false },
