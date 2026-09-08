@@ -1,7 +1,7 @@
 // Manifestul arhivei publice. Fiecare pachet exportat ca PDF în site/pachete/
 // primește o intrare aici. `ready: false` = datele sunt culese, PDF-ul nu e încă exportat.
 //
-// Actualizat automat 2026-09-07 de refresh-fixtures.yml.
+// Actualizat automat 2026-09-08 de refresh-fixtures.yml.
 window.PM_PACHETE = [
   // ---- Premier League — Etapa 4 ----
   { comp: 'Premier League', et: 'Etapa 4', date: '2026-09-12', ko: '17:00', home: 'Bournemouth', away: 'Brentford', venue: 'n/d', file: 'pachete/pl-e4-bournemouth-brentford.pdf', ready: false },
