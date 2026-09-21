@@ -1,8 +1,13 @@
 name: Commentator Packs
 
 on:
-  schedule:
-    - cron: "0 6 * * *"    # 06:00 UTC daily (08:00 Europe/Bucharest) — after fixture refresh
+  # PAUSED pe 21 septembrie 2026: rulările automate zilnice eșuau constant
+  # (fiecare rulare dura doar câteva zeci de secunde și se încheia cu eroare),
+  # așa că trigger-ul de schedule a fost dezactivat ca să nu mai consume rulări
+  # degeaba. Rămâne doar declanșarea manuală, din tab-ul Actions, pentru când
+  # se reia lucrul la asta.
+  # schedule:
+  #   - cron: "0 6 * * *"  # 06:00 UTC daily (08:00 Europe/Bucharest) — after fixture refresh
   workflow_dispatch: {}    # lets you run it on demand from the Actions tab, e.g. for a first test
 
 jobs:

@@ -1,8 +1,12 @@
 name: Refresh Fixtures
 
 on:
-  schedule:
-    - cron: "10 5 * * *"   # 05:10 UTC daily (07:10 Europe/Bucharest)
+  # PAUSED pe 21 septembrie 2026: rulările automate zilnice eșuau constant,
+  # așa că trigger-ul de schedule a fost dezactivat ca să nu mai consume
+  # rulări degeaba. Rămâne doar declanșarea manuală, din tab-ul Actions,
+  # pentru când se reia lucrul la asta.
+  # schedule:
+  #   - cron: "10 5 * * *"  # 05:10 UTC daily (07:10 Europe/Bucharest)
   workflow_dispatch: {}    # lets you run it on demand from the Actions tab
 
 jobs:
