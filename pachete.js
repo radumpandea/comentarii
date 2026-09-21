@@ -1,18 +1,29 @@
 // Manifestul arhivei publice. Fiecare pachet exportat ca PDF în site/pachete/
 // primește o intrare aici. `ready: false` = datele sunt culese, PDF-ul nu e încă exportat.
 //
-// Actualizat automat 2026-09-20 de refresh-fixtures.yml.
+// Actualizat automat 2026-09-21 de refresh-fixtures.yml.
 window.PM_PACHETE = [
-  // ---- Premier League — Etapa 5 ----
-  { comp: 'Premier League', et: 'Etapa 5', date: '2026-09-20', ko: '16:00', home: 'AFC Bournemouth', away: 'Liverpool', venue: 'n/d', file: 'pachete/pl-e5-afc-bournemouth-liverpool.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 5', date: '2026-09-20', ko: '16:00', home: 'Leeds United', away: 'Crystal Palace', venue: 'n/d', file: 'pachete/pl-e5-leeds-united-crystal-palace.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 5', date: '2026-09-20', ko: '16:00', home: 'Manchester City', away: 'Sunderland', venue: 'n/d', file: 'pachete/pl-e5-manchester-city-sunderland.pdf', ready: false },
-  { comp: 'Premier League', et: 'Etapa 5', date: '2026-09-20', ko: '18:30', home: 'Fulham', away: 'Manchester United', venue: 'n/d', file: 'pachete/pl-e5-fulham-manchester-united.pdf', ready: false },
+  // ---- Premier League — Etapa 6 ----
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-10', ko: '14:30', home: 'Arsenal', away: 'Leeds United', venue: 'n/d', file: 'pachete/pl-e6-arsenal-leeds-united.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-10', ko: '17:00', home: 'Aston Villa', away: 'Brentford', venue: 'n/d', file: 'pachete/pl-e6-aston-villa-brentford.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-10', ko: '17:00', home: 'Chelsea', away: 'AFC Bournemouth', venue: 'n/d', file: 'pachete/pl-e6-chelsea-afc-bournemouth.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-10', ko: '17:00', home: 'Ipswich Town', away: 'Fulham', venue: 'n/d', file: 'pachete/pl-e6-ipswich-town-fulham.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-10', ko: '17:00', home: 'Sunderland', away: 'Brighton & Hove Albion', venue: 'n/d', file: 'pachete/pl-e6-sunderland-brighton-hove-albion.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-10', ko: '19:30', home: 'Manchester United', away: 'Tottenham Hotspur', venue: 'n/d', file: 'pachete/pl-e6-manchester-united-tottenham-hotspur.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-11', ko: '16:00', home: 'Crystal Palace', away: 'Nottingham Forest', venue: 'n/d', file: 'pachete/pl-e6-crystal-palace-nottingham-forest.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-11', ko: '16:00', home: 'Hull City', away: 'Everton', venue: 'n/d', file: 'pachete/pl-e6-hull-city-everton.pdf', ready: false },
+  { comp: 'Premier League', et: 'Etapa 6', date: '2026-10-11', ko: '18:30', home: 'Liverpool', away: 'Manchester City', venue: 'n/d', file: 'pachete/pl-e6-liverpool-manchester-city.pdf', ready: false },
 
-  // ---- Ligue 1 — Etapa 5 ----
-  { comp: 'Ligue 1', et: 'Etapa 5', date: '2026-09-20', ko: '16:00', home: 'Auxerre', away: 'Brest', venue: 'n/d', file: 'pachete/l1-e5-auxerre-brest.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 5', date: '2026-09-20', ko: '18:15', home: 'Nice', away: 'Lille', venue: 'n/d', file: 'pachete/l1-e5-nice-lille.pdf', ready: false },
-  { comp: 'Ligue 1', et: 'Etapa 5', date: '2026-09-20', ko: '21:45', home: 'Marseille', away: 'Paris Saint-Germain', venue: 'n/d', file: 'pachete/l1-e5-marseille-paris-saint-germain.pdf', ready: false },
+  // ---- Ligue 1 — Etapa 6 ----
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-09', ko: '21:45', home: 'Lens', away: 'Lyon', venue: 'n/d', file: 'pachete/l1-e6-lens-lyon.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-10', ko: '18:15', home: 'Lille', away: 'Le Havre', venue: 'n/d', file: 'pachete/l1-e6-lille-le-havre.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-10', ko: '21:45', home: 'Brest', away: 'Angers', venue: 'n/d', file: 'pachete/l1-e6-brest-angers.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-10', ko: '21:45', home: 'Lorient', away: 'Paris FC', venue: 'n/d', file: 'pachete/l1-e6-lorient-paris-fc.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-10', ko: '21:45', home: 'Monaco', away: 'Toulouse', venue: 'n/d', file: 'pachete/l1-e6-monaco-toulouse.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-10', ko: '21:45', home: 'Paris Saint-Germain', away: 'Le Mans', venue: 'n/d', file: 'pachete/l1-e6-paris-saint-germain-le-mans.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-11', ko: '16:00', home: 'Nice', away: 'Strasbourg', venue: 'n/d', file: 'pachete/l1-e6-nice-strasbourg.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-11', ko: '18:15', home: 'Rennes', away: 'Auxerre', venue: 'n/d', file: 'pachete/l1-e6-rennes-auxerre.pdf', ready: false },
+  { comp: 'Ligue 1', et: 'Etapa 6', date: '2026-10-11', ko: '21:45', home: 'Troyes', away: 'Marseille', venue: 'n/d', file: 'pachete/l1-e6-troyes-marseille.pdf', ready: false },
 
   // ---- LaLiga — Etapa 7 ----
   { comp: 'LaLiga', et: 'Etapa 7', date: '2026-09-20', ko: '15:00', home: 'Getafe', away: 'Málaga', venue: 'n/d', file: 'pachete/laliga-e7-getafe-malaga.pdf', ready: false },
